@@ -1,0 +1,40 @@
+{
+  "name": "command-next-cli-service",
+  "version": "1.0.0",
+  "description": "前端一键自动化执行脚本群组(升级-可并行执行多个子任务)",
+  "main": "lib/lib/service.js",
+  "homepage": "https://github.com/Yukixieyuya821/command-next-cli-service",
+  "author": {
+    "name": "yukixy"
+  },
+  "files": [
+    "lib/"
+  ],
+  "keywords": [
+    "command",
+    "cli",
+    "script"
+  ],
+  "bin": {
+    "command-next-cli-service": "./lib/bin/command-next-cli-service.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yukixieyuya821/command-next-cli-service.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production babel ./src --out-dir ./lib --ignore __tests__ --copy-files"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.0",
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5",
+    "ora": "^5.1.0",
+    "prettier": "^2.1.1",
+    "eslint": "^7.32.0"
+  }
+}
