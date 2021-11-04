@@ -1,6 +1,6 @@
 {
   "name": "command-next-cli-service",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "前端一键自动化执行脚本群组(升级-可并行执行多个子任务)",
   "main": "lib/lib/service.js",
   "homepage": "https://github.com/Yukixieyuya821/command-next-cli-service",
