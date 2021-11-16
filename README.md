@@ -290,9 +290,10 @@ command-next-cli-service start # 或者使用 command-next-cli-service s
   "build": "vue-cli-service build",
   "lint": "vue-cli-service lint",
   "execu": "command-next-cli-service start",
-  "execu:dev": "command-next-cli-service start --mode dev",
-  "execu:test": "command-next-cli-service start --mode test",
-  "execu:prod": "command-next-cli-service start --mode prod"
+  "execu:dev": "command-next-cli-service start --mode dev", // "command-next-cli-service start --mode dev ct" 可跳过执行主任务脚本，单独执行子命令脚本
+  "execu:test": "command-next-cli-service start --mode test", // "command-next-cli-service start --mode test ct" 可跳过执行主任务脚本，单独执行子命令脚本
+  "execu:prod": "command-next-cli-service start --mode prod" // "command-next-cli-service start --mode prod ct" 可跳过执行主任务脚本，单独执行子命令脚本
+}
 }
 ```
 
